@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 100px;
+  margin: 10px 4.4vw;
+}
+
+header img {
+  width: 100px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  text-align: center;
+  gap: 24px;
+}

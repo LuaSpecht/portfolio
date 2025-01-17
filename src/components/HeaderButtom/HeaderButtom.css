@@ -1,0 +1,10 @@
+.header-buttom {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+  border: #fff 1px solid;
+  padding: 0.8rem 2.2rem;
+  border-radius: 100px;
+}
