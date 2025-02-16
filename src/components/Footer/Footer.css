@@ -1,7 +1,17 @@
 footer {
   background-color: #030303;
-  height: 430px;
+  color: #fff;
+  height: 100px;
   width: 100%;
   position: absolute;
   bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FF4C94;
 }
