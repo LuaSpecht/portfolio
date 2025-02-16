@@ -1,6 +1,6 @@
 import './Header.css'
 import HeaderLinks from '../HeaderLinks'
-import HeaderButtom from '../HeaderButtom'
+import DecoratedButton from '../DecoratedButton'
 
 const Header = () => {
   return(
@@ -12,7 +12,7 @@ const Header = () => {
         <HeaderLinks name='Carreira'/>
         <HeaderLinks name='Tecnologias'/>
         <HeaderLinks name='Certificações'/>
-        <HeaderButtom link="../archives/curriculo.pdf" name='Baixar CV'/>
+        <DecoratedButton link="../archives/Curriculo-Luana-Front-End.pdf" name='Baixar CV'/>
       </div>
     </header>
     

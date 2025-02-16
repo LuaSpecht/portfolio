@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  color: #fff;
+}
+
+.hero-section img {
+  width: 187px;
+  border-radius: 50%;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin: 18px;
+}
+
+.hero-section h1 {
+  display: flex;
+  align-items: center;
+  font-family: "PT Sans Caption", serif;
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.hero-section h1 .decorated-button {
+  pointer-events: none;
+  margin: 10px;
+  width: 15px;
+}
+
+.hero-section .subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 650px;
+  text-align: center;
+}
+
+.hero-section .curriculum-button {
+  margin: 12px;
+}
+
+.hero-section .curriculum-button .decorated-button {
+  background-color: #FF4C94;
+  border: none;
+  color: #000;
+}
