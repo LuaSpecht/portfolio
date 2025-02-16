@@ -2,7 +2,7 @@ import './HeaderButtom.css'
 
 const HeaderButtom = (props) => {
   return(
-    <a href={props.link} className='header-buttom'>{props.name}</a>
+    <a href={props.link} download className='header-buttom'>{props.name}</a>
   )
   
 }

@@ -12,7 +12,7 @@ const Header = () => {
         <HeaderLinks name='Carreira'/>
         <HeaderLinks name='Tecnologias'/>
         <HeaderLinks name='Certificações'/>
-        <HeaderButtom name='Baixar CV'/>
+        <HeaderButtom link="../archives/curriculo.pdf" name='Baixar CV'/>
       </div>
     </header>
     
