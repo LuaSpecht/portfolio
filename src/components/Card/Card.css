@@ -59,4 +59,5 @@
   transform: translateX(-50%);
   color: #fff;
   font-size: 18px;
+  cursor: pointer;
 }
