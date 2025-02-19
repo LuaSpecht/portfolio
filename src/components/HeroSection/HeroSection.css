@@ -18,7 +18,7 @@ main {
   margin: 18px;
 }
 
-.hero-section h1 {
+h1 {
   display: flex;
   align-items: center;
   font-family: "PT Sans Caption", serif;
