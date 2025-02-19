@@ -8,6 +8,11 @@ main {
   color: #fff;
 }
 
+.hero-section .purple-elipse {
+  right: -60px;
+  bottom: 10px;
+}
+
 .hero-section img {
   width: 187px;
   border-radius: 50%;

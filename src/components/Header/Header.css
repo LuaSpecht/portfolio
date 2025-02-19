@@ -6,6 +6,10 @@ header {
   margin: 10px 4.4vw;
 }
 
+header .purple-elipse {
+  left: -20px;
+}
+
 header img {
   width: 100px;
 }
