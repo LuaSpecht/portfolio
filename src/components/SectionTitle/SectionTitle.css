@@ -1,0 +1,8 @@
+.section-title {
+  display: flex;
+  height: 100%;
+  padding: 0;
+  -webkit-text-stroke: 2px #FF4C94;
+  color: transparent;
+  position: absolute;
+}

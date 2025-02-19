@@ -1,0 +1,14 @@
+.projects .section-title {
+  right: 80%;
+  transform: rotate(270deg) translateX(40%);
+
+}
+
+.projects {
+  display: flex;
+  width: 100%;
+}
+
+.main-carrousel {
+  display: flex;
+}
