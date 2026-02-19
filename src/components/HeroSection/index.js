@@ -1,12 +1,10 @@
 import './HeroSection.css'
 import DecoratedButton from '../DecoratedButton'
 import Aside from '../Aside'
-import Elipse from '../Elipse'
 
 const HeroSection = () => {
   return(
     <main className='hero-section' >
-      <Elipse/>
       <img src='../images/foto-linkedin.jpeg' alt='Uma foto de Luana Specht'/>
       <p className='p-hello-word'>Olá, eu sou a Lua!</p>
       <h1 className='main-title'> Desenvolvedora</h1>

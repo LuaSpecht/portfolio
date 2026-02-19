@@ -6,6 +6,7 @@ main {
   align-items: center;
   margin: 50px;
   color: #fff;
+  overflow: hidden;
 }
 
 .hero-section .purple-elipse {

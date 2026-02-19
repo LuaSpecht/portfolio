@@ -6,8 +6,8 @@ const ProjectCards = (props) =>{
   return(
     <div className='carrousel'  >
       <Card name='NicLua | Review de Games' tags='#JavaScript #Games #Blog'/>
-      <Card name='To-do-List' tags='#JavaScript #Daily #Organization'/>
-      <Card name='Jogo da Cobrinha' tags='#JavaScript #Games #Nostalgia'/>
+      <Card name='Wedding Site' tags='#JavaScript #Invite #Save-the-date'/>
+      <Card name='Meu portfólio' tags='#JavaScript #React #Portfolio'/>
     </div>
   )
 }

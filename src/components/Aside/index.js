@@ -1,4 +1,5 @@
 import './Aside.css'
+import Elipse from '../Elipse'
 
 const Aside = () => {
   return(
@@ -6,6 +7,7 @@ const Aside = () => {
       <a className='contact-icons' target='_blank' href='https://www.linkedin.com/in/luanaspechtbragante/' rel="noreferrer" > <img src='../images/linkedin.png' alt='Ícone do Linkedin'/> </a>
       <a className='contact-icons' target='_blank' href='https://github.com/LuaSpecht' rel="noreferrer" > <img src='../images/github.png' alt='Ícone do Github'/> </a>
       <a className='contact-icons' target='_blank' href='mailto:spechtdeveloper@gmail.com' rel="noreferrer" > <img src='../images/email.png' alt='Ícone de Email'/> </a>
+      <Elipse/>
     </aside>
   )
 }
