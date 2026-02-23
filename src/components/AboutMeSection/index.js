@@ -35,6 +35,7 @@ const AboutMeSection = (props) => {
             
 
         </div>
+            <Elipse className='purple-elipse' />
     </section>
   )
 }
