@@ -7,7 +7,6 @@ import Contacts from '../Contacts'
 const AboutMeSection = (props) => {
   return(
     <section className='about-me-section' id='about-me'>
-        <Elipse className='elipse'/>
         <SectionTitle className='section-title' name='Sobre mim'/>
         <div className='about-me-content'>
             <Contacts/>
