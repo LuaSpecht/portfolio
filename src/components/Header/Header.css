@@ -3,7 +3,8 @@ header {
   justify-content: space-between;
   align-content: center;
   height: 100px;
-  margin: 10px 4.4vw;
+  margin: 10px 5vw;
+  position: relative;
 }
 
 header .purple-elipse {
@@ -18,7 +19,14 @@ header img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
   text-align: center;
   gap: 1.3vw;
+}
+
+
+@media (min-width: 1500px) {
+  .header-links {
+    width: 50%;
+  }
 }

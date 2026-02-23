@@ -2,12 +2,13 @@ import './Header.css'
 import HeaderLinks from '../HeaderLinks'
 import DecoratedButton from '../DecoratedButton'
 import Elipse from '../Elipse'
+import logoImg from "../../assets/images/logo.svg";
 
 const Header = () => {
   return(
     <header>
       <Elipse/>
-      <img src="../images/logo.svg" alt="Logo Lua" />
+      <img src={logoImg} alt="Logo Lua" />
       <div className='header-links' >
         <HeaderLinks link="#about-me"  name='Sobre Mim'/>
         <HeaderLinks name='Projetos'/>

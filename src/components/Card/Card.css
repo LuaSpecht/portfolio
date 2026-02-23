@@ -16,6 +16,24 @@
   border-radius: 20px;
 }
 
+.card-image-part .card-image{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-github-link{
+  top: 11em;
+  margin-left: 5px;
+  right: 5px;
+  z-index: 10000;
+  position: absolute;
+}
+
+.card-image-part .card-github-link-icon{
+  width: 50px;
+}
+
+
 .card-information-part {
   display: flex;
   flex-direction: column;

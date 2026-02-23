@@ -1,16 +1,17 @@
 import './Card.css'
+import gitHubIcon from "../../assets/images/github.png";
 
 const Card = (props) =>{
   return(
     <div className='card' >
       <div className='card-image-part' >
-          <img src='' />
-        <a  ></a>
+        <img className='card-image'  src={props.image} alt={props.alt} />
+        <a className='card-github-link' target='_blank' href={props.githubLink} > <img className='card-github-link-icon'  src={gitHubIcon} /></a>
       </div>
       <div className='card-information-part' >
         <p className='card-tags'>{props.tags} </p>
         <h3 className='card-title'>{props.name}</h3>
-        <a href='#header'><button className='project-anchor'>Ver Projeto</button></a>
+        <a href={props.projectLink} target="_blank" rel="noopener noreferrer"><button className='project-anchor'>Ver Projeto</button></a>
         
       </div>
       

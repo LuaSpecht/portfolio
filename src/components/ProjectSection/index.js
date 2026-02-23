@@ -5,9 +5,8 @@ import ProjectCards from '../ProjectCards'
 const ProjectSection = () =>{
   return(
     <section className='projects'>
-      <SectionTitle name='Projetos'/>
+      <SectionTitle className='section-title' name='Projetos'/>
       <ProjectCards/>
-      
     </section>
   )
 }

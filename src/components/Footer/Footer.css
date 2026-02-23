@@ -1,13 +1,19 @@
 footer {
   background-color: #030303;
-  color: #fff;
   height: 100px;
   width: 100%;
-  position: absolute;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-content{
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  gap: 20px;
+  color: #fff;
 }
 
 footer a {

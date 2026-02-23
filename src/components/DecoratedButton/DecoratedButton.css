@@ -12,3 +12,8 @@
   padding: 0.8rem 2.2rem;
   border-radius: 100px;
 }
+
+.decorated-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
