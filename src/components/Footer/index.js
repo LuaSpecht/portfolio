@@ -4,7 +4,7 @@ import Logo from '../../assets/images/logo.svg'
 
 const Footer = () => {
   return(
-    <footer>
+    <footer id='footer'>
       <div className='footer-content'>
         <div className='footer-main-content' >
           <div className='logo'>
@@ -16,17 +16,16 @@ const Footer = () => {
           </div>
           <div className='info'>
             <div className='sections-info'>
-            <h3>Seções</h3>
-           <a href='#projects' >Projetos</a>
-           <a href='#about-me' >Sobre Mim</a>
-            <a href='#tec-tools' >Tecnologias</a>
-             <a href='#certification' >Certificado</a>
-          
-          </div>
+              <h3>Seções</h3>
+              <a href='#projects' >Projetos</a>
+              <a href='#about-me' >Sobre Mim</a>
+              <a href='#tec-tools' >Tecnologias</a>
+              <a href='#certification' >Certificado</a>
+            </div>
           <div className='terms-info'>
             <h3>Termos</h3>
-            <a href='#'>Política de Privacidade</a>
-            <a href='#'>Termos de Uso</a>
+            <a href='#footer'>Política de Privacidade</a>
+            <a href='#footer'>Termos de Uso</a>
           </div>
           <div className='contact-info'>
             <h3>Contatos</h3>
