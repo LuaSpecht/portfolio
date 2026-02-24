@@ -35,7 +35,7 @@ const CertificationSection = () => {
   }
 
   return (
-    <section className='certification-section'>
+    <section id='certification' className='certification-section'>
       <SectionTitle name='Certificações'/>
       
       <div className='certification-content'>

@@ -6,7 +6,7 @@ import Contacts from '../Contacts'
 
 const AboutMeSection = (props) => {
   return(
-    <section className='about-me-section' id='about-me'>
+    <section id='about-me' className='about-me-section'>
         <SectionTitle className='section-title' name='Sobre mim'/>
         <div className='about-me-content'>
             <Contacts/>
@@ -32,8 +32,6 @@ const AboutMeSection = (props) => {
                   Ajudo marcas e profissionais a transformarem ideias em uma presença digital sólida, criando soluções personalizadas e alinhadas aos seus objetivos.
                 </p>
             </div>
-            
-
         </div>
             <Elipse className='purple-elipse' />
     </section>

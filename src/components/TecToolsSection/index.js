@@ -6,7 +6,7 @@ import Elipse from '../Elipse';
 
 const TecToolsSection = (props) =>{
   return(
-    <section>
+    <section id='tec-tools' className='tec-tools-section'>
         <Elipse/>
         <SectionTitle name='Tecnologias'/>
         <div className='tectools-content'>

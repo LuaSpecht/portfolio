@@ -1,16 +1,17 @@
-.hero-section .contacts {
+.contacts {
   display: flex;
   flex-direction: column;
+}
+
+.hero-section .contacts {
   gap: 20px;
   position: absolute;
-  right: -100px; /* ajusta fino depois */
+  right: -100px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .about-me-section .contacts {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   position: absolute;
   margin-top: 20%;
@@ -18,9 +19,20 @@
   transform: translateY(-50%);
 }
 
+footer .contacts {
+  gap: 3px;
+}
+
+
 .about-me-section .contact-icons img {
   width: 44px;
   height: 44px;
+  transition: transform 0.3s ease;
+}
+
+footer .contact-icons img {
+  width: 30px;
+  height: 30px;
   transition: transform 0.3s ease;
 }
 
