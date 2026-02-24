@@ -7,8 +7,9 @@
     gap: 20px;
 }
 
-.purple-elipse{
-    right: 20%;
+.about-me-section .purple-elipse{
+    position: absolute;
+    left: 900px;
 }
 
 

@@ -8,6 +8,11 @@ section{
     gap: 20px;
     position: relative;
 }
+
+section .purple-elipse{
+    position: absolute;
+    left: -100px;
+}
 .tectools-content {
   display: flex;
   max-width: 1400px;

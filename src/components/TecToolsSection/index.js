@@ -2,10 +2,12 @@ import './TecToolsSection.css'
 import SectionTitle from '../SectionTitle'
 import { AtomIcon, FileJsIcon, FileCssIcon, FileCSharpIcon, GitBranchIcon} from "@phosphor-icons/react";
 import TecCards from '../TecCard';
+import Elipse from '../Elipse';
 
 const TecToolsSection = (props) =>{
   return(
     <section>
+        <Elipse/>
         <SectionTitle name='Tecnologias'/>
         <div className='tectools-content'>
             <div id='tec-frontend-area' className='tec-area' >
@@ -28,7 +30,7 @@ const TecToolsSection = (props) =>{
             <div id='tec-backend-area' className='tec-area'>
                 <TecCards
                     icon={<FileCSharpIcon size={32} color="#8615bb"/>}
-                    name='C#'
+                    name='C# e .Net Core'
                     description='Linguagem orientada a objetos amplamente utilizada no desenvolvimento de aplicações robustas e seguras.'
                 />
                 <TecCards
