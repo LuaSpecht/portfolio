@@ -42,3 +42,18 @@
 .dot.active {
   background-color: #dddddd;
 }
+
+@media (max-width: 768px) {
+  .certification-card {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+  .certification-card img {
+    width: 300px;
+    height: 230px;
+  }
+ .certification-content{
+  gap: 2px;
+}
+}

@@ -47,11 +47,12 @@
     }
 
     .about-me-content img {
-        width: 250px;
+        width: 90%;
     }
 
     .about-me-content p {
         max-width: 100%;
+        padding: 10px;
     }
 }
 

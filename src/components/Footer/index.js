@@ -37,7 +37,7 @@ const Footer = () => {
         <div className='footer-design-credits'>
           <div>Luana Specht Bragante</div>
           
-          <div>Design por ANA<b>DESIGN</b>   &#169; 2026 - Luana Todos os direitos reservados.</div>
+          <div><p>Design por ANA<b>DESIGN</b></p>   &#169; 2026 - Luana Todos os direitos reservados.</div>
       </div>
       </div>
     </footer>

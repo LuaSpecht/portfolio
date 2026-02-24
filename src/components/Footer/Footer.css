@@ -88,3 +88,35 @@ footer a {
   align-items: flex-end;
   gap: 3px;
 }
+
+@media (max-width: 768px) {
+  .footer-main-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer-main-content .logo {
+    width: 100%;
+    align-items: center;
+    text-align: left;
+  }
+
+  .footer-main-content .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-content .footer-design-credits {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    font-size: 10px;
+  }
+  .footer-design-credits div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}

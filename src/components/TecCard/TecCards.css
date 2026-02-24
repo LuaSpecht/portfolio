@@ -36,3 +36,9 @@
 .tec-card .tec-card-description p {
     margin: 0;
 }
+
+@media (max-width: 768px) {
+  .tec-card {
+    width: 80%;
+  }
+}

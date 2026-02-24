@@ -69,3 +69,23 @@ h1 {
   border: none;
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .hero-section img {
+    width: 150px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .hero-section .subtitle {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}

@@ -20,9 +20,15 @@ section .purple-elipse{
   flex-direction: column;
 }
 
-
 .tectools-content .tec-area {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .tectools-content .tec-area {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
