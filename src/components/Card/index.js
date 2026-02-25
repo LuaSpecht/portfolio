@@ -6,7 +6,7 @@ const Card = (props) =>{
     <div className='card' >
       <div className='card-image-part' >
         <img className='card-image'  src={props.image} alt={props.alt} />
-        <a className='card-github-link' target='_blank' href={props.githubLink} > <img className='card-github-link-icon'  src={gitHubIcon} /></a>
+        <a className='card-github-link' target='_blank' rel="noreferrer" href={props.githubLink} > <img className='card-github-link-icon'  src={gitHubIcon} alt='ícone do github com caminho para o projeto designado' /></a>
       </div>
       <div className='card-information-part' >
         <p className='card-tags'>{props.tags} </p>
