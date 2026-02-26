@@ -5,6 +5,7 @@ import DecoratedButton from '../DecoratedButton'
 import Elipse from '../Elipse'
 import logoImg from "../../assets/images/logo.svg";
 import { ListIcon} from "@phosphor-icons/react";
+import luaCurriculo from "../../assets/documents/Curriculo-Luana-Specht.pdf";
 
 const Header = () => {
 
@@ -21,7 +22,7 @@ const Header = () => {
         <HeaderLinks link="#about-me"  name='Sobre Mim'/>
         <HeaderLinks link='#tec-tools' name='Tecnologias'/>
         <HeaderLinks link='#certification' name='Certificações'/>
-        <DecoratedButton link="../archives/Curriculo-Luana-Front-End.pdf" name='Baixar CV'/>
+        <DecoratedButton link={luaCurriculo} name='Baixar CV'/>
       </div>
 
       <div 

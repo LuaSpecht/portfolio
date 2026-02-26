@@ -3,6 +3,7 @@ import DecoratedButton from '../DecoratedButton'
 import Contacts from '../Contacts'
 import Elipse from '../Elipse'
 import luaPic from "../../assets/images/foto-linkedin.jpeg";
+import luaCurriculo from "../../assets/documents/Curriculo-Luana-Specht.pdf";
 
 const HeroSection = () => {
   return(
@@ -19,7 +20,7 @@ const HeroSection = () => {
             Transformando café em código e designs em experiências digitais — com interfaces responsivas, acessíveis e profissionais.
           </p>
           <div className='curriculum-button'>
-            <DecoratedButton link="../archives/Curriculo-Luana-Front-End.pdf" name='Baixar Currículo'/>
+            <DecoratedButton link={luaCurriculo} name='Baixar Currículo'/>
           </div>
         </div>
         <Elipse/>
