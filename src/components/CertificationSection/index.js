@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './CertificationSection.css'
 import SectionTitle from '../SectionTitle'
 import CertificadoUdemy from "../../assets/images/certificado-udemy.jpg";
-import CertificadoCursoEmVideo from "../../assets/images/certificado-curso-em-video.jpg";
+import CertificadoCursoEmVideo from "../../assets/images/certificado-curso-em-video.pdf.png";
 import { LessThanIcon, GreaterThanIcon } from "@phosphor-icons/react";
 
 const CertificationSection = () => {
