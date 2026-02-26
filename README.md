@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 💜 Luana Specht | Desenvolvedora Full Stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo(a) ao repositório do meu portfólio profissional!  
+Este projeto foi desenvolvido para apresentar minhas habilidades, projetos e certificações na área de desenvolvimento web.
 
-## Available Scripts
+🔗 **Acesse o portfólio online:**  
+https://portfolio-pied-ten-56.vercel.app/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Preview do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img src="./src/assets/images/preview.png" width="900"/>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Sobre o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este portfólio foi desenvolvido com foco em organização, clareza e experiência do usuário.  
+A proposta é demonstrar não apenas conhecimento técnico, mas também atenção aos detalhes visuais, responsividade e boas práticas de desenvolvimento.
 
-### `npm run build`
+O design prioriza:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Interface moderna e limpa  
+- Estrutura componentizada  
+- Código organizado  
+- Experiência fluida e intuitiva  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run eject`
+- **React**
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
+- **Flexbox**
+- **Componentização**
+- **React Hooks (useState)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✔ Seção Hero personalizada  
+✔ Apresentação profissional  
+✔ Seção de tecnologias  
+✔ Carrossel de certificações  
+✔ Layout responsivo  
+✔ Navegação fluida  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Estrutura do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+portfolio/
+ ├── public/
+ ├── src/
+ │   ├── assets/
+ │   ├── components/
+ │   └── App.js
+ └── package.json
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Organizado com foco em escalabilidade e reaproveitamento de componentes.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Como Rodar o Projeto Localmente
 
-### Analyzing the Bundle Size
+```bash
+# Clone o repositório
+git clone https://github.com/LuaSpecht/portfolio.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Acesse a pasta do projeto
+cd portfolio
 
-### Making a Progressive Web App
+# Instale as dependências
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Inicie o servidor de desenvolvimento
+npm start
+```
 
-### Advanced Configuration
+O projeto abrirá em:  
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🌐 Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+O projeto está hospedado na Vercel:
 
-### `npm run build` fails to minify
+🔗 https://portfolio-pied-ten-56.vercel.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📬 Contato
+
+Caso queira conversar sobre projetos, oportunidades ou parcerias:
+
+💼 LinkedIn:  
+https://www.linkedin.com/in/luanaspechtbragante/
+
+
+---
+
+## 💡 Sobre mim
+
+Sou Desenvolvedora Full Stack apaixonada por criar experiências digitais funcionais, acessíveis e bem estruturadas.  
+Acredito que um bom projeto vai além da estética — ele precisa ser intuitivo, eficiente e gerar resultados reais.
+
+---
+
+✨ Este projeto está em constante evolução e melhorias.
