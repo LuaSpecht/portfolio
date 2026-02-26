@@ -3,7 +3,7 @@ import DecoratedButton from '../DecoratedButton'
 import Contacts from '../Contacts'
 import Elipse from '../Elipse'
 import luaPic from "../../assets/images/foto-linkedin.jpeg";
-import luaCurriculo from "../../assets/documents/Curriculo-Luana-Specht.pdf";
+import luaCurriculo from "../../assets/documents/LuanaSpecht.pdf";
 
 const HeroSection = () => {
   return(

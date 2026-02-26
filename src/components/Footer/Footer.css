@@ -81,6 +81,7 @@ footer a {
   justify-content: space-between;
   width: 100%;
   font-size: 12px;
+  align-items: center;
 }
 
 .footer-design-credits div{
