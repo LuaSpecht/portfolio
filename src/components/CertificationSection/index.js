@@ -3,6 +3,7 @@ import './CertificationSection.css'
 import SectionTitle from '../SectionTitle'
 import CertificadoUdemy from "../../assets/images/certificado-udemy.jpg";
 import CertificadoCursoEmVideo from "../../assets/images/certificado-curso-em-video.pdf.png";
+import CertfificadoDesignEPrototipacao from "../../assets/images/certificado-design.png";
 import { LessThanIcon, GreaterThanIcon } from "@phosphor-icons/react";
 
 const CertificationSection = () => {
@@ -15,6 +16,10 @@ const CertificationSection = () => {
     {
       image: CertificadoCursoEmVideo,
       alt: "Certificação de Desenvolvimento Web do Curso em Vídeo"
+    },
+    {
+      image: CertfificadoDesignEPrototipacao,
+      alt: "Certificação de Design e Prototipação da Anhanguera"
     }
   ]
 
