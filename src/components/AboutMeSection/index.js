@@ -20,7 +20,7 @@ const AboutMeSection = (props) => {
                 </p>
                 
                 <p>
-                  Estou no último período de Análise e Desenvolvimento de Sistemas e atuo no desenvolvimento completo de aplicações web — do front-end ao back-end. 
+                  Sou formada em Análise e Desenvolvimento de Sistemas pela Anhanguera e atuo no desenvolvimento completo de aplicações web — do front-end ao back-end. 
                   Trabalho com HTML, CSS, JavaScript e React na construção de interfaces modernas e responsivas, além de desenvolver APIs e estruturas focadas em performance e escalabilidade.
                 </p>
                 
