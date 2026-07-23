@@ -4,11 +4,16 @@ import SectionTitle from '../SectionTitle'
 import CertificadoUdemy from "../../assets/images/certificado-udemy.jpg";
 import CertificadoCursoEmVideo from "../../assets/images/certificado-curso-em-video.pdf.png";
 import CertfificadoDesignEPrototipacao from "../../assets/images/certificado-design.png";
+import Diploma from "../../assets/images/diploma.png"
 import { LessThanIcon, GreaterThanIcon } from "@phosphor-icons/react";
 
 const CertificationSection = () => {
 
   const slides = [
+    {
+      image: Diploma,
+      alt: "Diploma Universitário, Conclusão de Curso Tecnólogo Desenvolvimento Web na Anhanguera"
+    },
     {
       image: CertificadoUdemy,
       alt: "Certificação de Desenvolvimento Web da Udemy"
