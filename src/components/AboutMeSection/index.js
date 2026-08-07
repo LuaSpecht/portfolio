@@ -1,6 +1,6 @@
 import './AboutMeSection.css'
 import SectionTitle from '../SectionTitle'
-import luaPic from "../../assets/images/about-me-image.png";
+import luaPic from "../../assets/images/about-me-image.jpg";
 import Elipse from '../Elipse'
 import Contacts from '../Contacts'  
 
@@ -10,7 +10,7 @@ const AboutMeSection = (props) => {
         <SectionTitle className='section-title' name='Sobre mim'/>
         <div className='about-me-content'>
             <Contacts/>
-            <img src={luaPic} alt='Uma foto de Luana Specht'/>
+            <img src={luaPic} alt='Uma foto de Luana Specht' loading='lazy' decoding='async'/>
             <div className='about-me-text'>
                 <p id='hello' >Olá, eu sou a</p>
                 <h2 className='my-name'>Luana Specht Bragante</h2>
@@ -30,6 +30,10 @@ const AboutMeSection = (props) => {
                 
                 <p>
                   Ajudo marcas e profissionais a transformarem ideias em uma presença digital sólida, criando soluções personalizadas e alinhadas aos seus objetivos.
+                </p>
+
+                <p>
+                  Cada projeto começa com uma pergunta simples: o que você quer alcançar? A partir daí, entrego o meu melhor pra tirar isso do papel — porque, mais do que código, o que importa de verdade é realizar o seu sonho.
                 </p>
             </div>
         </div>

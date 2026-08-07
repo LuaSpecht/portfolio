@@ -3,14 +3,14 @@ import DecoratedButton from '../DecoratedButton'
 import Contacts from '../Contacts'
 import Elipse from '../Elipse'
 import luaPic from "../../assets/images/foto-linkedin.jpeg";
-import luaCurriculo from "../../assets/documents/LuanaSpecht.pdf";
+import { WHATSAPP_LINK } from "../../constants/whatsapp";
 
 const HeroSection = () => {
   return(
     <main className='hero-section'>
       <div className="hero-container">
         <div className="hero-content">
-          <img src={luaPic} alt='Uma foto de Luana Specht'/>
+          <img src={luaPic} alt='Uma foto de Luana Specht' fetchpriority='high' decoding='async'/>
           <p className='p-hello-word'>Olá, eu sou a Lua!</p>
           <h1 className='main-title'> Desenvolvedora</h1>
           <h1 className='main-title'>
@@ -20,7 +20,11 @@ const HeroSection = () => {
             Transformando café em código e designs em experiências digitais — com interfaces responsivas, acessíveis e profissionais.
           </p>
           <div className='curriculum-button'>
-            <DecoratedButton link={luaCurriculo} name='Baixar Currículo'/>
+            <DecoratedButton
+              link={WHATSAPP_LINK}
+              name='Fazer Orçamento'
+              target='_blank'
+            />
           </div>
         </div>
         <Elipse/>

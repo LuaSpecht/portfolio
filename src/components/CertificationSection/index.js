@@ -58,9 +58,11 @@ const CertificationSection = () => {
             style={{ cursor: "pointer" }}
           />
 
-          <img 
-            src={slides[slideIndex].image} 
+          <img
+            src={slides[slideIndex].image}
             alt={slides[slideIndex].alt}
+            loading='lazy'
+            decoding='async'
           />
 
           <GreaterThanIcon 
