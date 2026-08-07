@@ -15,20 +15,71 @@ section .purple-elipse{
 }
 .tectools-content {
   display: flex;
-  max-width: 1400px;
-  align-items: center;
   flex-direction: column;
+  gap: 36px;
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
 }
 
-.tectools-content .tec-area {
+.tec-group {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.tec-group-label {
+  color: #FF4C94;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tec-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.tec-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background-color: #121212;
+  border: 1px solid #ffffff2e;
+  transition: border-color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tec-pill:hover {
+  border-color: #FF4C94;
+  background-color: #1a1a1a;
+  transform: translateY(-3px);
+}
+
+.tec-pill-icon {
+  display: flex;
+  align-items: center;
+}
+
+.tec-pill-name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
-  .tectools-content .tec-area {
-    flex-direction: column;
-    gap: 20px;
+  .tec-pill {
+    padding: 8px 16px;
+  }
+
+  .tec-pill-name {
+    font-size: 14px;
   }
 }

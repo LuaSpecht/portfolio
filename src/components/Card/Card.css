@@ -5,6 +5,13 @@
   border: #606060 1px solid;
   color: #fff;
   position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #FF4C94;
+  box-shadow: 0 12px 30px rgba(255, 76, 148, 0.25);
 }
 
 .card-image-part {
@@ -14,6 +21,58 @@
   width: 100%;
   background-color: #030303;
   border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image-part .card-image {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.card:hover .card-image-part .card-image {
+  transform: scale(1.06);
+  filter: brightness(0.35);
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px;
+  background: linear-gradient(180deg, rgba(18, 18, 18, 0.55) 0%, rgba(18, 18, 18, 0.92) 100%);
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  pointer-events: none;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-overlay-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-overlay-label {
+  color: #FF4C94;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-overlay-text {
+  color: #f2f2f2;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0;
 }
 
 .card-image-part .card-image{
