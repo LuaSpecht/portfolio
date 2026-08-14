@@ -6,26 +6,16 @@ import CertificadoCursoEmVideo from "../../assets/images/certificado-curso-em-vi
 import CertfificadoDesignEPrototipacao from "../../assets/images/certificado-design.png";
 import Diploma from "../../assets/images/diploma.png"
 import { LessThanIcon, GreaterThanIcon } from "@phosphor-icons/react";
+import { useLanguage } from "../../i18n/LanguageContext";
 
 const CertificationSection = () => {
+  const { t } = useLanguage();
 
   const slides = [
-    {
-      image: Diploma,
-      alt: "Diploma Universitário, Conclusão de Curso Tecnólogo Desenvolvimento Web na Anhanguera"
-    },
-    {
-      image: CertificadoUdemy,
-      alt: "Certificação de Desenvolvimento Web da Udemy"
-    },
-    {
-      image: CertificadoCursoEmVideo,
-      alt: "Certificação de Desenvolvimento Web do Curso em Vídeo"
-    },
-    {
-      image: CertfificadoDesignEPrototipacao,
-      alt: "Certificação de Design e Prototipação da Anhanguera"
-    }
+    { image: Diploma, alt: t.certifications.alts.diploma },
+    { image: CertificadoUdemy, alt: t.certifications.alts.udemy },
+    { image: CertificadoCursoEmVideo, alt: t.certifications.alts.cursoEmVideo },
+    { image: CertfificadoDesignEPrototipacao, alt: t.certifications.alts.design },
   ]
 
   const [slideIndex, setSlideIndex] = useState(0)
@@ -46,7 +36,7 @@ const CertificationSection = () => {
 
   return (
     <section id='certification' className='certification-section'>
-      <SectionTitle name='Certificações'/>
+      <SectionTitle name={t.certifications.sectionTitle}/>
       
       <div className='certification-content'>
         

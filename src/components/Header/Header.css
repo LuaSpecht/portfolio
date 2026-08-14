@@ -36,10 +36,48 @@ header img {
   transition: 0.3s;
 }
 
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 6px;
+  border: none;
+  background: transparent;
+  color: #8a8a8a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.lang-toggle:hover {
+  color: #fff;
+}
+
+.header-mobile-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-toggle-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
 
   header{
     height: 60px;
+  }
+
+  .lang-toggle-mobile {
+    display: flex;
+    z-index: 10010;
+  }
+
+  .lang-toggle-desktop {
+    display: none;
   }
 
   .header-links {

@@ -3,26 +3,29 @@ import DecoratedButton from '../DecoratedButton'
 import Contacts from '../Contacts'
 import Elipse from '../Elipse'
 import luaPic from "../../assets/images/foto-linkedin.jpeg";
-import { WHATSAPP_LINK } from "../../constants/whatsapp";
+import { getWhatsappLink } from "../../constants/whatsapp";
+import { useLanguage } from "../../i18n/LanguageContext";
 
 const HeroSection = () => {
+  const { t } = useLanguage();
+
   return(
     <main className='hero-section'>
       <div className="hero-container">
         <div className="hero-content">
           <img src={luaPic} alt='Uma foto de Luana Specht' fetchpriority='high' decoding='async'/>
-          <p className='p-hello-word'>Olá, eu sou a Lua!</p>
-          <h1 className='main-title'> Desenvolvedora</h1>
+          <p className='p-hello-word'>{t.hero.greeting}</p>
+          <h1 className='main-title'> {t.hero.titleLine1}</h1>
           <h1 className='main-title'>
-            <DecoratedButton link='#header' name='&lt;/&gt;'/> FullStack
+            <DecoratedButton link='#header' name='&lt;/&gt;'/> {t.hero.titleLine2}
           </h1>
           <p className='subtitle'>
-            Transformando café em código e designs em experiências digitais — com interfaces responsivas, acessíveis e profissionais.
+            {t.hero.subtitle}
           </p>
           <div className='curriculum-button'>
             <DecoratedButton
-              link={WHATSAPP_LINK}
-              name='Fazer Orçamento'
+              link={getWhatsappLink(t.whatsappMessage)}
+              name={t.hero.cta}
               target='_blank'
             />
           </div>

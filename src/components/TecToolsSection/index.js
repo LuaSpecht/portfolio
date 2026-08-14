@@ -2,6 +2,7 @@ import './TecToolsSection.css'
 import SectionTitle from '../SectionTitle'
 import { AtomIcon, FileJsIcon, FileCssIcon, FileHtmlIcon, FileCSharpIcon, GitBranchIcon} from "@phosphor-icons/react";
 import Elipse from '../Elipse';
+import { useLanguage } from "../../i18n/LanguageContext";
 
 const frontendTechs = [
   { icon: <AtomIcon size={24} weight='duotone' color='#4FBAD2' />, name: 'React' },
@@ -31,13 +32,15 @@ const TecPillGroup = ({ label, items }) => (
 )
 
 const TecToolsSection = () =>{
+  const { t } = useLanguage();
+
   return(
     <section id='tec-tools' className='tec-tools-section'>
         <Elipse/>
-        <SectionTitle name='Tecnologias'/>
+        <SectionTitle name={t.tech.sectionTitle}/>
         <div className='tectools-content'>
-            <TecPillGroup label='Frontend' items={frontendTechs} />
-            <TecPillGroup label='Backend & Ferramentas' items={backendTechs} />
+            <TecPillGroup label={t.tech.frontend} items={frontendTechs} />
+            <TecPillGroup label={t.tech.backend} items={backendTechs} />
         </div>
     </section>
   )

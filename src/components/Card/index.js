@@ -10,11 +10,11 @@ const Card = (props) =>{
 
         <div className='card-overlay'>
           <div className='card-overlay-block'>
-            <span className='card-overlay-label'>O desafio</span>
+            <span className='card-overlay-label'>{props.challengeLabel}</span>
             <p className='card-overlay-text'>{props.problem}</p>
           </div>
           <div className='card-overlay-block'>
-            <span className='card-overlay-label'>A solução</span>
+            <span className='card-overlay-label'>{props.solutionLabel}</span>
             <p className='card-overlay-text'>{props.solution}</p>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Card = (props) =>{
       <div className='card-information-part' >
         <p className='card-tags'>{props.tags} </p>
         <h3 className='card-title'>{props.name}</h3>
-        <a href={props.projectLink} target="_blank" rel="noopener noreferrer"><button className='project-anchor'>Ver Projeto</button></a>
+        <a href={props.projectLink} target="_blank" rel="noopener noreferrer"><button className='project-anchor'>{props.viewProjectLabel}</button></a>
 
       </div>
 
