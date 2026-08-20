@@ -1,6 +1,6 @@
 import './ProjectCards.css'
 import Card from '../Card'
-import weddingPrint from "../../assets/images/wedding-print.png";
+import hotelPrint from "../../assets/images/hotel-print.jpg";
 import alegriaPrint from "../../assets/images/alegria-print.png";
 import eccosPrint from "../../assets/images/eccos-print.png";
 import { useLanguage } from "../../i18n/LanguageContext";
@@ -21,10 +21,10 @@ const ProjectCards = () =>{
         solutionLabel={solutionLabel}
       />
       <Card
-        {...items.wedding}
-        image={weddingPrint}
-        projectLink='https://casamento-lua-e-nics.netlify.app/'
-        githubLink='https://github.com/LuaSpecht/wedding-site'
+        {...items.hotel}
+        image={hotelPrint}
+        projectLink='https://hotelriosdopantanal.com/'
+        githubLink='https://github.com/LuaSpecht/HotelRiosPantanal'
         viewProjectLabel={viewProject}
         challengeLabel={challengeLabel}
         solutionLabel={solutionLabel}

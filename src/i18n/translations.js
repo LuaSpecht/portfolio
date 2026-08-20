@@ -37,11 +37,11 @@ const translations = {
           problem: 'Marca de geleias artesanais sem presença digital, vendia só por indicação boca a boca.',
           solution: 'Site institucional para apresentar os produtos e a marca, com contato direto para quem quer comprar.',
         },
-        wedding: {
-          name: 'Wedding Site | Site de Casamento',
-          tags: '#JavaScript #Convite #Save-the-date',
-          problem: 'Casal queria um convite de casamento digital e personalizado, fugindo do papel tradicional.',
-          solution: 'Landing page com contagem regressiva, informações do evento e confirmação de presença online.',
+        hotel: {
+          name: 'Hotel Rios do Pantanal | Site Institucional',
+          tags: '#React #Hotelaria #SEO',
+          problem: 'Hotel precisava de um site institucional para apresentar seus serviços e acomodações.',
+          solution: 'Site completo com quartos, localização, refeições, reservas online e SEO otimizado.',
         },
         eccos: {
           name: 'ECCOS | Engenharia de Recursos Hídricos',
@@ -115,11 +115,11 @@ const translations = {
           problem: 'Artisanal jam brand with no online presence, selling only through word of mouth.',
           solution: 'Institutional site showcasing the products and brand, with direct contact for buyers.',
         },
-        wedding: {
-          name: 'Wedding Site',
-          tags: '#JavaScript #Invitation #SaveTheDate',
-          problem: 'Couple wanted a personalized digital wedding invitation instead of the traditional paper one.',
-          solution: 'Landing page with countdown, event details and online RSVP.',
+        hotel: {
+          name: 'Rios do Pantanal Hotel | Institutional Website',
+          tags: '#React #Hospitality #SPA',
+          problem: 'The hotel needed an institutional website to showcase its services and accommodations.',
+          solution: 'Complete website with rooms, location, dining, online booking, and optimized SEO.',
         },
         eccos: {
           name: 'ECCOS | Water Resources Engineering',
