@@ -1,6 +1,6 @@
 import './AboutMeSection.css'
 import SectionTitle from '../SectionTitle'
-import luaPic from "../../assets/images/about-photo.jpg";
+import luaPic from "../../assets/images/about-me-image.jpg";
 import Elipse from '../Elipse'
 import Contacts from '../Contacts'
 import { useLanguage } from "../../i18n/LanguageContext";

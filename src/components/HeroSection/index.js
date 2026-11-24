@@ -2,7 +2,7 @@ import './HeroSection.css'
 import DecoratedButton from '../DecoratedButton'
 import Contacts from '../Contacts'
 import Elipse from '../Elipse'
-import luaPic from "../../assets/images/hero-photo.jpg";
+import luaPic from "../../assets/images/foto-linkedin.jpeg";
 import { getWhatsappLink } from "../../constants/whatsapp";
 import { useLanguage } from "../../i18n/LanguageContext";
 
