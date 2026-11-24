@@ -30,7 +30,16 @@ const translations = {
       viewProject: 'Ver Projeto',
       challengeLabel: 'O desafio',
       solutionLabel: 'A solução',
+      prevLabel: 'Projetos anteriores',
+      nextLabel: 'Próximos projetos',
+      goToLabel: 'Ir para a posição',
       items: {
+        rosiane: {
+          name: 'Rosiane Paixão | Maquiagem de Noivas',
+          tags: '#React #Vite #SEO',
+          problem: 'Maquiadora de noivas precisava de uma vitrine própria e elegante, que levasse a noiva direto para a conversa.',
+          solution: 'Site animado com galeria do Instagram, depoimentos e formulário que abre o WhatsApp com a mensagem pronta.',
+        },
         alegria: {
           name: 'Alegria Geleias | Geleias Artesanais',
           tags: '#ProjetoInstitucional #ReactJS',
@@ -108,7 +117,16 @@ const translations = {
       viewProject: 'View Project',
       challengeLabel: 'The challenge',
       solutionLabel: 'The solution',
+      prevLabel: 'Previous projects',
+      nextLabel: 'Next projects',
+      goToLabel: 'Go to position',
       items: {
+        rosiane: {
+          name: 'Rosiane Paixão | Bridal Makeup & Hair',
+          tags: '#React #Vite #SEO',
+          problem: 'Bridal makeup artist needed an elegant showcase of her own that takes brides straight to a conversation.',
+          solution: 'Animated site with an Instagram gallery, testimonials and a form that opens WhatsApp with a ready message.',
+        },
         alegria: {
           name: 'Alegria Geleias | Artisanal Jams',
           tags: '#InstitutionalSite #ReactJS',

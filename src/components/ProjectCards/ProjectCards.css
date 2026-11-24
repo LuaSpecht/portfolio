@@ -1,16 +1,111 @@
 .carrousel {
+  --card-width: 250px;
+  --card-gap: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 8px;
   width: 100vw;
 }
 
-@media (max-width: 768px) {
-  .carrousel {
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.carrousel-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* Janela que mostra só os cards visíveis.
+   O padding deixa espaço para o hover (card sobe + sombra) sem ser cortado. */
+.carrousel-viewport {
+  box-sizing: content-box;
+  width: calc(var(--visible) * var(--card-width) + (var(--visible) - 1) * var(--card-gap));
+  padding: 20px 40px 40px;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.carrousel-track {
+  display: flex;
+  align-items: center;
+  gap: var(--card-gap);
+  transition: transform 0.5s ease;
+}
+
+.carrousel-item {
+  flex: 0 0 var(--card-width);
+  transition: opacity 0.4s ease;
+}
+
+/* Cards fora da janela somem, para não aparecerem na área do padding */
+.carrousel-item.is-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.carrousel-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.carrousel-arrow:hover {
+  transform: scale(1.15);
+}
+
+.carrousel-arrow:hover svg {
+  color: #FF4C94;
+  fill: #FF4C94;
+}
+
+.carrousel-arrow:focus-visible,
+.carrousel-dot:focus-visible {
+  outline: 2px solid #FF4C94;
+  outline-offset: 3px;
+}
+
+.carrousel-dots {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Mesmo estilo dos pontinhos do carrossel de certificações */
+.carrousel-dot {
+  width: 20px;
+  height: 5px;
+  padding: 0;
+  border: none;
+  background-color: #606060;
+  border-radius: 3ch;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.carrousel-dot.active {
+  background-color: #dddddd;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carrousel-track,
+  .carrousel-item {
+    transition: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .carrousel-row {
+    gap: 0;
+  }
+
+  .carrousel-viewport {
+    padding: 20px 16px 40px;
   }
 }
